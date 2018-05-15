@@ -1,0 +1,152 @@
+/* Page 1 */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+#box1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("light.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("poly.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("coast.jpg");
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.76);
+    mix-blend-mode: overlay;
+} 
+.sub {
+    font-family: 'Titan One', light;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    text-align: center;
+} 
+
+/* Page 2 */
+
+.box4 {
+    background: url("apple.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+.title2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    mix-blend-mode: overlay;
+} 
+.title3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+.title4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 0;
+    color: black;
+    mix-blend-mode: overlay;
+    padding: 0% 10% 5% 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+.table {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("stairs.jpg");
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    background-attachment: fixed;
+}
+.li-item {
+    padding: 1%;
+    color: white;
+    background-color: black;
+    mix-blend-mode: overlay;
+}
+.video {
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+}
+.icon {
+    padding-left: 10%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+    background-attachment: fixed;
+    display: block;
+}
+.vid-back {
+    background: url("mobile.jpg") no-repeat center;
+    background-size: cover; 
+    background-attachment: fixed;
+    transform: translateY(-10px);
+}
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+/* Media Queries */
+
+@media(max-width: 800px) {
+.title {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 0.76);
+    mix-blend-mode: overlay;
+}
+.sub {
+    font-family: 'Titan One', light;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    text-align: center;
+} 
+
